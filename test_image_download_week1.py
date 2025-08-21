@@ -34,7 +34,7 @@ def test_download_file_failure(monkeypatch):
         download_file("http://example.com", headers={})
 
 
-def test_decode_and_resize_image():
+def test_decode_image():
     # Create a fake 100x100 black image
     img = np.zeros((100, 100, 3), dtype=np.uint8)
 
@@ -43,13 +43,29 @@ def test_decode_and_resize_image():
     assert success
     image_bytes = encoded.tobytes()
 
-    # Decode
+    # Decode with your function
     decoded = decode_image(image_bytes)
     assert decoded.shape == (100, 100, 3)
+    assert decoded.dtype == np.uint8
 
-    # Resize
-    resized = resize_image(decoded, (200, 200))
+
+def test_resize_image():
+    # Start with a 100x100 image
+    img = np.zeros((100, 100, 3), dtype=np.uint8)
+
+    # Resize to 200x200
+    resized = resize_image(img, (200, 200))
     assert resized.shape == (200, 200, 3)
+    assert resized.dtype == np.uint8
+
+
+def test_resize_image_downscale():
+    # Start with a 200x200 image
+    img = np.zeros((200, 200, 3), dtype=np.uint8)
+
+    # Resize down to 50x50
+    resized = resize_image(img, (50, 50))
+    assert resized.shape == (50, 50, 3)
 
 
 def test_save_image(tmp_path):
