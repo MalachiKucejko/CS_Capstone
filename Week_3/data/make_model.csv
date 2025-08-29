@@ -1,0 +1,96 @@
+id,make,model
+1,Toyota,Camry
+2,Toyota,Corolla
+3,Toyota,RAV4
+4,Toyota,Tacoma
+5,Toyota,Highlander
+6,Honda,Civic
+7,Honda,Accord
+8,Honda,CR-V
+9,Honda,Pilot
+10,Honda,Odyssey
+11,Ford,F-150
+12,Ford,Explorer
+13,Ford,Escape
+14,Ford,Mustang
+15,Ford,Edge
+16,Chevrolet,Silverado
+17,Chevrolet,Equinox
+18,Chevrolet,Tahoe
+19,Chevrolet,Malibu
+20,Chevrolet,Traverse
+21,Nissan,Altima
+22,Nissan,Rogue
+23,Nissan,Sentra
+24,Nissan,Pathfinder
+25,Nissan,Murano
+26,Jeep,Grand Cherokee
+27,Jeep,Wrangler
+28,Jeep,Cherokee
+29,Jeep,Compass
+30,Jeep,Renegade
+31,Ram,1500
+32,Ram,2500
+33,Ram,3500
+34,Subaru,Outback
+35,Subaru,Forester
+36,Subaru,Crosstrek
+37,Subaru,Ascent
+38,Subaru,Impreza
+39,Hyundai,Tucson
+40,Hyundai,Santa Fe
+41,Hyundai,Elantra
+42,Hyundai,Sonata
+43,Hyundai,Palisade
+44,Kia,Sportage
+45,Kia,Sorento
+46,Kia,Telluride
+47,Kia,Forte
+48,Kia,K5
+49,GMC,Sierra
+50,GMC,Yukon
+51,GMC,Acadia
+52,GMC,Terrain
+53,Mazda,CX-5
+54,Mazda,CX-9
+55,Mazda,3
+56,Mazda,6
+57,Mazda,CX-30
+58,Volkswagen,Tiguan
+59,Volkswagen,Atlas
+60,Volkswagen,Jetta
+61,Volkswagen,Passat
+62,Volkswagen,Taos
+63,Tesla,Model 3
+64,Tesla,Model Y
+65,Tesla,Model S
+66,Tesla,Model X
+67,BMW,3 Series
+68,BMW,X3
+69,BMW,X5
+70,BMW,4 Series
+71,BMW,5 Series
+72,Mercedes-Benz,C-Class
+73,Mercedes-Benz,GLC
+74,Mercedes-Benz,E-Class
+75,Mercedes-Benz,GLE
+76,Mercedes-Benz,A-Class
+77,Audi,Q5
+78,Audi,A4
+79,Audi,Q3
+80,Audi,A5
+81,Audi,Q7
+82,Lexus,RX
+83,Lexus,NX
+84,Lexus,ES
+85,Lexus,GX
+86,Lexus,IS
+87,Infiniti,QX60
+88,Infiniti,QX50
+89,Infiniti,Q50
+90,Volvo,XC90
+91,Volvo,XC60
+92,Volvo,XC40
+93,Porsche,Macan
+94,Porsche,Cayenne
+95,Porsche,911
